@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:id="@+id/ImageView"
+        android:layout_width="379dp"
+        android:layout_height="702dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.389"
+        app:srcCompat="@drawable/sb_background" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="138dp"
+        android:layout_height="189dp"
+        android:text="Happy:0\Hunger:100\ncleanliness:100"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.158"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.105" />
+
+    <Button
+        android:id="@+id/cleanButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="clean"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.973" />
+
+    <Button
+        android:id="@+id/eatButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="eat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.453"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <Button
+        android:id="@+id/playbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="play"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.843"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+</androidx.constraintlayout.widget.ConstraintLayout>
